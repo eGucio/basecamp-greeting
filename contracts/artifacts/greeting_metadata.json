@@ -6,6 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "Greeter",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "sayHello",
 				"outputs": [
@@ -47,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/greeting.sol": {
-			"keccak256": "0x790f75eb7595d549351abcc2e885a9f94b22e2230634086cf6a444f41b8d1d3e",
+			"keccak256": "0x6147d1b5790b53083a15e72cec947c511f450796e74f5a962e8e9eb28532f34c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff5b2b52621f0cd6c053542b088c13625c7a24a0dfd3ba2fb76cf19156cdb0d7",
-				"dweb:/ipfs/QmcHTt3YCyWPpZ742wU7FgH2sn8g8tp6rXJLokB75XMFrF"
+				"bzz-raw://814b403f4aa89aeadaef72e5b07fe4f66570ded65e39696141c2417dbe783798",
+				"dweb:/ipfs/QmP71JCNZbAcJRonk9jrxpeMsqkaN2g1ekXixP2LRVkSj7"
 			]
 		}
 	},
